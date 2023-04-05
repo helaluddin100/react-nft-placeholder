@@ -1,0 +1,223 @@
+/* ==================HEADER ================ */
+
+body {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 44.2282px -44.2282px 44.2282px rgba(165, 165, 165, 0.1), inset -44.2282px 44.2282px 44.2282px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(44.2282px);
+    position: relative;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu {
+    background: rgba(217, 217, 217, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: inset 44.2282px -44.2282px 44.2282px rgba(165, 165, 165, 0.1), inset -44.2282px 44.2282px 44.2282px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(44.2282px);
+    height: 100px;
+    border-radius: 10px;
+}
+
+ul.menu-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    height: 100%;
+}
+
+.logo a img {
+    width: 132px;
+}
+
+.logo a {
+    position: absolute;
+}
+
+nav.navigation {
+    margin-top: 50px;
+}
+
+ul.social-ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #000;
+    z-index: 9;
+    padding: 10px 47px;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+a.nav-link:hover {
+    color: var(--main-color);
+}
+
+
+/* ==========================welcome section======================= */
+
+.welcome-content {
+    text-align: center;
+}
+
+.time-show-box {
+    background: rgba(217, 217, 217, 0.2);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.time-show-box h2 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 61px;
+    font-family: var(--title-font);
+}
+
+.time-show-box p {
+    background: var(--main-color);
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.enter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.btn-enter {
+    width: 258px;
+    text-align: center;
+    background: var(--main-color);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--white-color);
+    font-size: 28px;
+    margin-top: 44px;
+    transition: 0.3s;
+}
+
+.timer-wrapper {
+    margin: 85px 0;
+}
+
+.welcome-content p {
+    font-size: 28px;
+}
+
+.welcome-content h1 {
+    font-size: 88px;
+    font-family: var(--title-font);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.welcome {
+    background-image: url(../img/welcome/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.footer-social {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer-social:before {
+    content: "";
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+}
+
+.footer-img-a,
+img.footer-img-b {
+    position: absolute;
+    right: 0;
+    bottom: 102px;
+    z-index: -1;
+}
+
+.footer-img-a {
+    left: 0;
+}
+
+.footer {
+    position: relative;
+}
+
+li.nav-list .social-ul {
+    background: none;
+}
+
+
+/* =========================hero section==================== */
+
+img.hero-img {
+    max-width: 100%;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.hero-content h2 {
+    font-size: 65px;
+    width: 70%;
+    margin: auto;
+    font-family: var(--title-font);
+}
+
+.unique-wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 0 45px;
+}
+
+.unique-img img {
+    width: 100%;
+}
+
+.unique-content h2 {
+    font-size: 80px;
+    font-family: var(--title-font);
+}
+
+.unique-content p {
+    font-size: 24px;
+    margin-top: 12px;
+    line-height: 150%;
+}
+
+.overlay {
+    --gradient-color: none !important;
+}
